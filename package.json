@@ -1,0 +1,41 @@
+{
+  "name": "tutoriales",
+  "version": "1.0.0",
+  "description": "Tutoriales de programación",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "predeploy": "vuepress build docs",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackdevmariana/tutoriales.git"
+  },
+  "keywords": [
+    "python",
+    "linux",
+    "bash",
+    "shell",
+    "script",
+    "vi",
+    "vim",
+    "javascript",
+    "vue",
+    "django"
+  ],
+  "author": "fernando",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hackdevmariana/tutoriales/issues"
+  },
+  "homepage": "https://github.com/hackdevmariana/tutoriales#readme",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.7",
+    "@vuepress/theme-default": "^2.0.0-rc.14",
+    "gh-pages": "^6.1.1",
+    "vuepress": "^2.0.0-rc.7"
+  }
+}
