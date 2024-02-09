@@ -5,6 +5,13 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
-  base: "https://hackdevmariana.github.io/tutoriales",
+  //base: "/docs/.vuepress/dist/",  
+  bundlerConfig: {
+    viteOptions: {
+      build: {
+        assetsDir: "assets", 
+      },
+    },
+  },
 })
 
