@@ -5,7 +5,7 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
-  //base: "/docs/.vuepress/dist/",  
+  base: "/tutoriales/",  
   bundlerConfig: {
     viteOptions: {
       build: {
@@ -13,5 +13,8 @@ export default defineUserConfig({
       },
     },
   },
-})
+});
+plugins: [
+'vuepress-plugin-code-copy'
+];
 
