@@ -1,10 +1,9 @@
 # Tutoriales de programación en español
 
-## Python
+## [Python](./python/)
 ### Django
 
 ## Otras tecnologías
 ### [Markdown](./markdown/)
 
 ![Hacker Tux](./assets/hackertux.png)
-

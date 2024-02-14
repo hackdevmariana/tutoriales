@@ -38,6 +38,20 @@
     "@vuepress/plugin-search": "^1.9.10",
     "@vuepress/theme-default": "^2.0.0-rc.14",
     "gh-pages": "^6.1.1",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "vuepress": "^2.0.0-rc.7",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-vt": "^0.15.1"
+  },
+  "dependencies": {
+    "docsearch.js": "^2.6.3",
+    "mkdirp": "^3.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "resolve-url": "^0.2.1",
+    "source-map-url": "^0.4.1",
+    "urix": "^0.1.0",
+    "uuid": "^9.0.1",
+    "vue": "^3.4.19",
+    "vuepress-plugin-full-text-search2": "^0.4.0"
   }
 }

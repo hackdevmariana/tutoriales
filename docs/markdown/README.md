@@ -109,26 +109,52 @@ Para generar:
 2. Elemento 2
 3. Elemento 3
 
-También podemos indicar subíndices, con la precaución de escribir un doble salto de línea en aquellos elementos que tengan más de un punto, como:
+También podemos generar listas no ordenadas, con guión (-) o asterisco (*):
+
+``` md
+- Elemento 1
+- Elemento 2
+- Elemento 3
+```  
+
+Que genera:
+
+- Elemento 1
+- Elemento 2
+- Elemento 3
+
+Podemos combinar guiones y asteriscos:
+
+``` md
+- Elemento 1
+* Elemento 2
+- Elemento 3
+```  
+
+Que genera:
+
+- Elemento 1
+* Elemento 2
+- Elemento 3
+
+Incluso, combinaciones de listas ordenadas y no ordenadas:
 
 ``` md
 1. Elemento 1
 2. Elemento 2
 3. Elemento 3
-3.1. Elemento 3.1
-
-3.1.1 Elemento 3.1.1
-
+- Elemento 3.1
+- Elemento 3.2
 4. Elemento 4
 ```  
+
+Que, al procesarlo, se convierte en:
 
 1. Elemento 1
 2. Elemento 2
 3. Elemento 3
-3.1. Elemento 3.1
-
-3.1.1 Elemento 3.1.1
-
+- Elemento 3.1
+- Elemento 3.2
 4. Elemento 4
 
 ## Citas
