@@ -32,6 +32,10 @@ export default defineUserConfig({
         '',
         'cadenas',
       ],
+      '/vue/': [
+        '',
+        'multiples-servidores',
+      ],
       '/vuepress/': [
         '',
         'imagenes',
