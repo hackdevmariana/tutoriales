@@ -28,6 +28,14 @@ export default defineUserConfig({
         '',
         'markdown',
       ],
+      '/python/': [
+        '',
+        'cadenas',
+      ],
+      '/vuepress/': [
+        '',
+        'imagenes',
+      ],
     },
   }),
   base: '/tutoriales/',
