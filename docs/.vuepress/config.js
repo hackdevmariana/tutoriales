@@ -38,7 +38,9 @@ export default defineUserConfig({
       ],
       '/vuepress/': [
         '',
+        'config',
         'imagenes',
+        'copy-code',
       ],
     },
   }),
