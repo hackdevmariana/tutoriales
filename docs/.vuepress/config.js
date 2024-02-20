@@ -18,9 +18,16 @@ export default defineUserConfig({
 			},
 			{ text: 'Lenguajes',
 			children: [
-				{ text: 'Python', link: '/python/' },
+        { text: 'Python', link: '/python/' },
 			 ],
 		  },
+      { text: 'Frameworks',
+      children: [
+        { text: 'Vue', link: '/vue/' },
+        { text: 'Nuxt', link: '/nuxt/' },
+        { text: 'VuePress', link: '/vuepress/' },
+       ],
+      },
     ],
     sidebar: {
           '/tecnologias/': [
