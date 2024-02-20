@@ -9,6 +9,7 @@
 ### [VuePress](./vuepress/)
 
 ## Otras tecnologías
+### [Git](./git/)
 ### [Markdown](./markdown/)
 
 ![Hacker Tux](./assets/hackertux.png)

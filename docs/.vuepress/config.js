@@ -39,6 +39,15 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/git/': [
+            {
+              text: 'Git',
+              children: [
+                { text: 'Introducción', link: '/git/' },
+                { text: 'Crear access tokens', link: '/git/access-token' },
+              ],
+            },
+          ],
           '/python/': [
             {
               text: 'Python',
@@ -73,7 +82,7 @@ export default defineUserConfig({
               text: 'Nuxt',
               children: [
                 { text: 'El primer hola mundo', link: '/nuxt/' },
-                // { text: 'Multiples Servidores', link: '/vue/multiples-servidores' },
+                { text: 'Subir proyecto a GitHub Pages', link: '/vue/github-pages' },
               ],
             },
           ],
