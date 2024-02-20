@@ -1,4 +1,4 @@
-import{_ as e,r as o,o as p,c,a as n,d as a,b as l,e as s}from"./app-Cxcui8zm.js";const i={},u=s(`<h1 id="crear-proyecto-vue" tabindex="-1"><a class="header-anchor" href="#crear-proyecto-vue"><span>Crear proyecto Vue</span></a></h1><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token function">npm</span> create vue@latest
+import{_ as e,r as o,o as p,c,a as n,d as a,b as l,e as s}from"./app-DMnjaUn0.js";const i={},u=s(`<h1 id="crear-proyecto-vue" tabindex="-1"><a class="header-anchor" href="#crear-proyecto-vue"><span>Crear proyecto Vue</span></a></h1><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token function">npm</span> create vue@latest
 <span class="token builtin class-name">cd</span> vue-project
 <span class="token function">npm</span> <span class="token function">install</span>
 <span class="token function">npm</span> run <span class="token function">format</span>
