@@ -5,6 +5,7 @@
 
 ## JavaScript
 ### [Vue](./vue/)
+### [Nuxt](./nuxt/)
 ### [VuePress](./vuepress/)
 
 ## Otras tecnologías
