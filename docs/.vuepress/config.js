@@ -84,10 +84,10 @@ export default defineUserConfig({
               text: 'Nuxt',
               children: [
                 { text: 'El primer hola mundo', link: '/nuxt/' },
-                { text: 'Función definePageMeta', link: '/vue/definepagemeta' },
-                { text: 'Configuración del proyecto', link: '/vue/config' },
-                { text: 'Subir proyecto a GitHub Pages', link: '/vue/github-pages' },
-                { text: 'Uso de git con Nuxt', link: '/vue/git' },
+                { text: 'Función definePageMeta', link: '/nuxt/definepagemeta' },
+                { text: 'Configuración del proyecto', link: '/nuxt/config' },
+                { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
+                { text: 'Uso de git con Nuxt', link: '/nuxt/git' },
 
               ],
             },
