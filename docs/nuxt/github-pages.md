@@ -4,6 +4,7 @@ Para hacer un conjunto de componentes que se llame `@proyecto` y un proyecto con
 
 ``` sh
 mkdir @buey
+cd @buey
 ```
 
 Inicializamos git:
@@ -52,13 +53,25 @@ Podemos crear una página con Nuxt para mostrar demos de los componentes. Podemo
 Por ejemplo, podemos tener la siguiente estructura de repositorios:
 
 ```
-@proyecto/
-└── Componente1/
-    └── Componente1.vue
-└── Componente2/
-    └── Componente2.vue
-demos/
-└── index.vue
-└── Componente1Demo.vue
-└── Componente2Demo.vue
+my-project/
+├── @project/
+│   ├── Componente1/
+│   │   └── Componente1.vue
+│   ├── Componente2/
+│   │   └── Componente2.vue
+├── demos/
+│   ├── pages/
+│   │   └── index.vue  (página principal)
+│   │   └── Componente1Demo.vue
+│   │   └── Componente2Demo.vue
+```
+
+## Proyecto Nuxt
+
+Creamos el proyecto Nuxt en el directorio demos:
+
+``` sh
+mkdir demos
+cd demos
+npx create-nuxt-app .
 ```

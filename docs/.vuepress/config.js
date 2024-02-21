@@ -45,6 +45,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/git/' },
                 { text: 'Crear access tokens', link: '/git/access-token' },
+                { text: 'Crear páginas en GitHub Pages', link: '/git/github-pages' },
               ],
             },
           ],
@@ -54,6 +55,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/python/' },
                 { text: 'Cadenas', link: '/python/cadenas' },
+                { text: 'CLI con click', link: '/python/click' },
               ],
             },
           ],
@@ -82,7 +84,11 @@ export default defineUserConfig({
               text: 'Nuxt',
               children: [
                 { text: 'El primer hola mundo', link: '/nuxt/' },
+                { text: 'Función definePageMeta', link: '/vue/definepagemeta' },
+                { text: 'Configuración del proyecto', link: '/vue/config' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/vue/github-pages' },
+                { text: 'Uso de git con Nuxt', link: '/vue/git' },
+
               ],
             },
           ],
