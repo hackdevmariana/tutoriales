@@ -4,7 +4,7 @@ El fichero `nuxt.config.js` es el archivo donde puedes configurar todas las opci
 
 - **alias**: Para definir alias adicionales para acceder a directorios personalizados dentro de tu código JavaScript y CSS.
 
-- **app**: Para configurar la aplicación Nuxt, como el título, la descripción, los scripts, los estilos y otros elementos del <head> de cada página.
+- **app**: Para configurar la aplicación Nuxt, como el título, la descripción, los scripts, los estilos y otros elementos del `<head>` de cada página.
 
 - **build**: Para personalizar el proceso de construcción de tu aplicación, como los plugins, los loaders, los transpilers, el análisis y la optimización.
 
@@ -20,7 +20,7 @@ El fichero `nuxt.config.js` es el archivo donde puedes configurar todas las opci
 
 - **generate**: Para configurar el comportamiento de Nuxt al generar tu aplicación como un sitio web estático, como las rutas, el fallback, el crawler y otros.
 
-- **head**: Para configurar el <head> de cada página de tu aplicación, como el título, la descripción, los meta tags, los enlaces, los scripts y otros.
+- **head**: Para configurar el `<head>` de cada página de tu aplicación, como el título, la descripción, los meta tags, los enlaces, los scripts y otros.
 
 - **loading**: Para personalizar la barra de carga que aparece entre las transiciones de las páginas.
 
