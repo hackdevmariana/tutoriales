@@ -56,6 +56,7 @@ export default defineUserConfig({
                 { text: 'Introducción', link: '/python/' },
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'CLI con click', link: '/python/click' },
+                { text: 'Subir proyecto a GitHub', link: '/python/github' },
               ],
             },
           ],
