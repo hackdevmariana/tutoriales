@@ -58,12 +58,91 @@ El archivo `setup.py` en un proyecto Python es un script de configuración que s
 
 Comúnmente en un archivo `setup.py` se encuentra la siguiente información:
 
+### Información del Proyecto:
+
 - **name**: Nombre del proyecto.
 - **version**: Número de versión del proyecto. Puede seguir el formato X.Y.Z, donde X es la versión principal, Y es la versión secundaria y Z es la versión de parche.
 - **author**: Nombre del autor del proyecto.
 - **author_email**: Correo electrónico del autor.
 - **description**: Breve descripción del proyecto.
 - **long_description**: Descripción más detallada del proyecto.
+
+### Configuración de paquetes:
+
+- **packages**: Lista de paquetes a incluir. Puede ser especificado manualmente o automáticamente detectado utilizando herramientas como find_packages.
+- **install_requires**: Lista de dependencias necesarias para que el proyecto funcione.
+
+### Configuración de scripts:
+
+- **entry_points**: Especifica puntos de entrada para scripts ejecutables. Esto es comúnmente usado con herramientas como console_scripts.
+
+### Configuración de testing:
+
+- **tests_require**: Lista de dependencias necesarias para ejecutar las pruebas.
+
+### Configuración adicional:
+
+Hay muchas otras opciones que se pueden configurar dependiendo de tus necesidades específicas, como classifiers, keywords, url, etc.
+
+``` py
+from setuptools import setup
+
+setup(
+    name='mi_proyecto',
+    version='0.1.0',
+    author='Tu Nombre',
+    author_email='tu@email.com',
+    description='Una descripción breve',
+    long_description='Una descripción más detallada...',
+    # ...
+    packages=find_packages(),
+    install_requires=[
+        'numpy',
+        'click',
+        # ...
+    ],
+    entry_points={
+        'console_scripts': [
+            'mi_comando = mi_paquete.mi_modulo:funcion_principal',
+        ],
+    },
+    # ...
+    tests_require=[
+        'pytest',
+        'coverage',
+        # ...
+    ],
+    # ...
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        # ...
+    ],
+    # ...
+)
+```
+
+### Uso de setup.py:
+
+Para instalar el proyecto localmente:
+
+``` sh
+python setup.py install
+```
+
+Para empaquetar el proyecto para distribución:
+
+``` sh
+python setup.py sdist
+```
+
+Para instalar desde el archivo comprimido:
+
+``` sh
+pip install dist/mi_proyecto-0.1.0.tar.gz
+```
+
+
 
 ## Fichero README
 
