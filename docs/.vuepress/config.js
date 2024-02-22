@@ -57,6 +57,7 @@ export default defineUserConfig({
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'CLI con click', link: '/python/click' },
                 { text: 'Subir proyecto a GitHub', link: '/python/github' },
+                { text: 'Subir proyecto a PyPI', link: '/python/pypi' },
               ],
             },
           ],
