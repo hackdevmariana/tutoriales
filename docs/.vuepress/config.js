@@ -49,6 +49,15 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/css/': [
+            {
+              text: 'CSS',
+              children: [
+                { text: 'Introducción', link: '/css/' },
+                { text: 'Imágenes circulares', link: '/css/imagenes-circulares' },
+              ],
+            },
+          ],
           '/python/': [
             {
               text: 'Python',
