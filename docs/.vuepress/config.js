@@ -18,6 +18,7 @@ export default defineUserConfig({
 			},
 			{ text: 'Lenguajes',
 			children: [
+        { text: 'CSS', link: '/css/' },
         { text: 'Python', link: '/python/' },
 			 ],
 		  },
