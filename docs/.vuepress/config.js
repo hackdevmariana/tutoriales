@@ -77,6 +77,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/vue/' },
                 { text: 'Multiples Servidores', link: '/vue/multiples-servidores' },
+                { text: 'Composition API con parámetros', link: '/vue/composition-api-con-parametros' },
               ],
             },
           ],
