@@ -1,4 +1,4 @@
-import{_ as s,o as n,c as a,e}from"./app-BPDUKTlY.js";const t={},p=e(`<h1 id="vuepress" tabindex="-1"><a class="header-anchor" href="#vuepress"><span>VuePress</span></a></h1><h2 id="crear-proyecto" tabindex="-1"><a class="header-anchor" href="#crear-proyecto"><span>Crear proyecto</span></a></h2><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token function">mkdir</span> proyecto-vuepress
+import{_ as s,o as n,c as a,e}from"./app-k_Z7C-0K.js";const t={},p=e(`<h1 id="vuepress" tabindex="-1"><a class="header-anchor" href="#vuepress"><span>VuePress</span></a></h1><h2 id="crear-proyecto" tabindex="-1"><a class="header-anchor" href="#crear-proyecto"><span>Crear proyecto</span></a></h2><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token function">mkdir</span> proyecto-vuepress
 <span class="token builtin class-name">cd</span> proyecto-vuepress
 <span class="token function">git</span> init
 <span class="token function">npm</span> init
