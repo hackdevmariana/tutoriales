@@ -89,6 +89,7 @@ export default defineUserConfig({
                 { text: 'Función definePageMeta', link: '/nuxt/definepagemeta' },
                 { text: 'Configuración del proyecto', link: '/nuxt/config' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
+                { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
                 { text: 'Uso de git con Nuxt', link: '/nuxt/git' },
 
