@@ -78,6 +78,7 @@ export default defineUserConfig({
                 { text: 'Introducción', link: '/vue/' },
                 { text: 'Multiples Servidores', link: '/vue/multiples-servidores' },
                 { text: 'Composition API con parámetros', link: '/vue/composition-api-con-parametros' },
+                { text: 'Composition API con parámetros', link: '/vue/composition-api-con-script' },
               ],
             },
           ],

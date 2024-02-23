@@ -105,7 +105,6 @@ En Vue, se pueden utilizar propiedades dinámicas para pasar objetos o arrays m�
 `ParentComponent.vue`:
 
 ``` vue
-
 <template>
   <div>
     <child-component :data="parentData" />
@@ -250,7 +249,7 @@ export default {
 
 En este ejemplo, el componente hijo emite un evento llamado `button-clicked` junto con información adicional, y el componente padre maneja este evento en el método `handleButtonClick`.
 
-## Parámetros en <script setup>
+## Parámetros en `<script setup>`
 
 En `<script setup>`, no se utilizan `props` de la misma manera que en el bloque script estándar. En su lugar, se utiliza la función `defineProps` para definir las propiedades.
 
