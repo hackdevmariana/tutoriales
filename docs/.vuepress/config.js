@@ -64,10 +64,11 @@ export default defineUserConfig({
               text: 'Python',
               children: [
                 { text: 'Introducción', link: '/python/' },
-                { text: 'Cadenas', link: '/python/cadenas' },
-                { text: 'CLI con click', link: '/python/click' },
                 { text: 'Subir proyecto a GitHub', link: '/python/github' },
                 { text: 'Subir proyecto a PyPI', link: '/python/pypi' },
+                { text: 'Cadenas', link: '/python/cadenas' },
+                { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
+                { text: 'CLI con click', link: '/python/click' },
               ],
             },
           ],
