@@ -7,7 +7,7 @@ Crear un entorno virtual es una buena práctica durante el desarrollo de un proy
 Para crearlo, podemos ir al directorio del proyecto y ejecutar:
 
 ``` sh
-python -m venv venv
+python3 -m venv venv
 ```
 
 Esto creará un directorio llamado `venv` que contendrá el entorno virtual.
@@ -146,7 +146,9 @@ pip install dist/mi_proyecto-0.1.0.tar.gz
 
 ## Fichero README
 
-También debería incluir instrucciones en el fichero `README.md` para que otros usuarios sepan cómo instalar las dependencias. Pueden usar el siguiente comando para instalar todas las dependencias:
+También debería incluir instrucciones en el fichero `README.md` para que otros usuarios sepan cómo instalar las dependencias.
+
+Es importante indicar que pueden usar el siguiente comando para instalar todas las dependencias:
 
 ``` sh
 pip install -r requirements.txt

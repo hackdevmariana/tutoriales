@@ -2,11 +2,15 @@
 
 ## Instalación
 
+``` sh
+pip install click
+```
+
 ## Comando sin subcomandos
 
-Es posible crear un CLI con Click que se ejecute directamente sin mostrar la ayuda al escribir el nombre del script.
+Es posible crear un CLI con `Click` que se ejecute directamente sin mostrar la ayuda al escribir el nombre del script.
 
-Puedes hacer esto utilizando un comando principal que se ejecute automáticamente cuando no se proporciona un subcomando, al estilo de cualquier comando clásico de Unix, como `ls`, `cd` o `mkdir`.
+Podemos hacer esto utilizando un comando principal que se ejecute automáticamente cuando no se proporciona un subcomando, al estilo de cualquier comando clásico de Unix, como `ls`, `cd` o `mkdir`.
 
 
 ``` py
