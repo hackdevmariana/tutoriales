@@ -13,7 +13,8 @@ export default defineUserConfig({
 			{ text: 'Tecnologías',
 			  // link: '/comandos/',
 			children: [
-				{ text: 'Markdown', link: '/markdown/' },
+        { text: 'Markdown', link: '/markdown/' },
+				{ text: 'Git', link: '/git/' },
 			 ],
 			},
 			{ text: 'Lenguajes',
@@ -47,6 +48,7 @@ export default defineUserConfig({
                 { text: 'Introducción', link: '/git/' },
                 { text: 'Crear access tokens', link: '/git/access-token' },
                 { text: 'Crear páginas en GitHub Pages', link: '/git/github-pages' },
+                { text: 'Crear repositorio en GitHub', link: '/git/repositorio' },
               ],
             },
           ],
