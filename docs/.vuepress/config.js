@@ -80,6 +80,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/vue/' },
                 { text: 'Multiples Servidores', link: '/vue/multiples-servidores' },
+                { text: 'Ejecutar función al hacer clic', link: '/vue/clic' },
                 { text: 'Composition API con parámetros', link: '/vue/composition-api-con-parametros' },
                 { text: 'Composition API con parámetros', link: '/vue/composition-api-con-script' },
                 { text: 'Composition API con parámetros', link: '/vue/composition-api-con-script-setup' },

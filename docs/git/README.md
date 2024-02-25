@@ -8,6 +8,18 @@ git add dist
 
 ## Ramas
 
+Saber las ramas existentes:
+
+``` sh
+git branch
+```
+
+Saber las ramas existentes en el repositorio remoto:
+
+``` sh
+git branch -r
+```
+
 Crear rama huérfana:
 
 ``` sh
