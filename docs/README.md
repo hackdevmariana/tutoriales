@@ -11,6 +11,10 @@
 ### [Nuxt](./nuxt/)
 ### [VuePress](./vuepress/)
 
+## [R](./r/)
+### R Studio
+### R-Markdown
+
 ## Otras tecnologías
 ### [Git](./git/)
 ### [Markdown](./markdown/)
