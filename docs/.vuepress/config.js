@@ -58,6 +58,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/css/' },
                 { text: 'Imágenes circulares', link: '/css/imagenes-circulares' },
+                { text: 'Propiedades para letras', link: '/css/textos' },
               ],
             },
           ],
