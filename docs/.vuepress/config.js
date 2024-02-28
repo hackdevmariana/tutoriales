@@ -48,6 +48,8 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/javascript/' },
                 { text: 'Ciclos for', link: '/javascript/for' },
+                { text: 'Ciclos while y do-while', link: '/javascript/while' },
+                { text: 'Estructuras if', link: '/javascript/if' },
               ],
             },
           ],
