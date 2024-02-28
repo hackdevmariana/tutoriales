@@ -20,6 +20,7 @@ export default defineUserConfig({
 			{ text: 'Lenguajes',
 			children: [
         { text: 'CSS', link: '/css/' },
+        { text: 'JavaScript', link: '/javascript/' },
         { text: 'Python', link: '/python/' },
 			 ],
 		  },
@@ -38,6 +39,15 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/tecnologias/' },
                 { text: 'Markdown', link: '/tecnologias/markdown' },
+              ],
+            },
+          ],
+          '/javascript/': [
+            {
+              text: 'JavaScript',
+              children: [
+                { text: 'Introducción', link: '/javascript/' },
+                { text: 'Ciclos for', link: '/javascript/for' },
               ],
             },
           ],
