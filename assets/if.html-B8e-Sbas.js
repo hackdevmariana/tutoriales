@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app-YUNyCI5D.js";const r={};function c(i,n){return e(),a("div")}const s=t(r,[["render",c],["__file","if.html.vue"]]),l=JSON.parse('{"path":"/javascript/if.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"javascript/if.md"}');export{s as comp,l as data};

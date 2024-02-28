@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app-YUNyCI5D.js";const r={};function c(i,l){return t(),a("div")}const o=e(r,[["render",c],["__file","while.html.vue"]]),s=JSON.parse('{"path":"/javascript/while.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"javascript/while.md"}');export{o as comp,s as data};
