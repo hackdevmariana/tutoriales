@@ -22,6 +22,7 @@ export default defineUserConfig({
         { text: 'CSS', link: '/css/' },
         { text: 'JavaScript', link: '/javascript/' },
         { text: 'Python', link: '/python/' },
+        { text: 'R', link: '/r/' },
 			 ],
 		  },
       { text: 'Frameworks',
@@ -50,6 +51,15 @@ export default defineUserConfig({
                 { text: 'Ciclos for', link: '/javascript/for' },
                 { text: 'Ciclos while y do-while', link: '/javascript/while' },
                 { text: 'Estructuras if', link: '/javascript/if' },
+              ],
+            },
+          ],
+          '/r/': [
+            {
+              text: 'R',
+              children: [
+                { text: 'Introducción', link: '/r/' },
+                { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
               ],
             },
           ],
