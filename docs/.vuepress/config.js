@@ -60,6 +60,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/r/' },
                 { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
+                { text: 'Partes del discurso (PLN)', link: '/r/pos' },
               ],
             },
           ],
