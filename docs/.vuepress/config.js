@@ -83,6 +83,7 @@ export default defineUserConfig({
                 { text: 'Centrar imágenes', link: '/css/centar-imagen' },
                 { text: 'Imágenes circulares', link: '/css/imagenes-circulares' },
                 { text: 'Propiedades para letras', link: '/css/textos' },
+                { text: 'Propiedad scroll-behavior', link: '/css/scroll-behavior' },
               ],
             },
           ],
