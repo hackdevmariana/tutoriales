@@ -29,15 +29,15 @@ Los valores posibles son:
 
 Los valores globales, que tienen el mismo significado que en otras propiedades CSS, son:
 
-- **inherit**
+- **inherit**: El elemento hereda el valor de scroll-behavior de su elemento padre. Si no hay ningún elemento padre con un valor definido, el valor por defecto es auto.
 
-- **initial**
+- **initial**: El elemento restablece el valor de scroll-behavior al valor inicial, que es auto. Esto significa que el desplazamiento se realiza de forma instantánea.
 
-- **revert**
+- **revert**: El elemento revierte el valor de scroll-behavior al valor que tendría si no se hubiera aplicado ninguna regla CSS. Esto depende del origen de la regla CSS, que puede ser el agente de usuario, el autor o el usuario. Por ejemplo, si el autor ha especificado scroll-behavior: smooth, pero el usuario ha especificado scroll-behavior: auto, el valor revertido será auto.
 
-- **revert-layer**
+- **revert-layer**: El elemento revierte el valor de scroll-behavior al valor que tendría si no se hubiera aplicado ninguna regla CSS del mismo origen o de orígenes más específicos. Esto depende de la cascada CSS, que ordena las reglas según su origen, especificidad e importancia. Por ejemplo, si el autor ha especificado scroll-behavior: smooth con !important, pero el usuario ha especificado scroll-behavior: auto sin !important, el valor revertido será smooth.
 
-- **unset**
+- **unset**: El elemento elimina el valor de scroll-behavior, lo que equivale a inherit si la propiedad es heredable o a initial si no lo es. En este caso, como scroll-behavior no es heredable, el valor es initial, es decir, auto.
 
 Un ejemplo de uso de scroll-behavior es el siguiente:
 

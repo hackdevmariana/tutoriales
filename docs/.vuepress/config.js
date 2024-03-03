@@ -87,6 +87,15 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/bootstrap/': [
+            {
+              text: 'Bootstrap',
+              children: [
+                { text: 'Introducción', link: '/bootstrap/' },
+                { text: 'Lista sin puntos', link: '/bootstrap/lista-sin-puntos' },
+              ],
+            },
+          ],
           '/python/': [
             {
               text: 'Python',
@@ -102,6 +111,15 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/php/': [
+            {
+              text: 'PHP',
+              children: [
+                { text: 'Introducción', link: '/php/' },
+                { text: 'Redireccionar una página', link: '/php/redireccion' },
+              ],
+            },
+          ],
           '/vue/': [
             {
               text: 'Vue',
@@ -110,9 +128,9 @@ export default defineUserConfig({
                 { text: 'Multiples Servidores', link: '/vue/multiples-servidores' },
                 { text: 'Ejecutar función al hacer clic', link: '/vue/clic' },
                 { text: 'Composition API con parámetros', link: '/vue/composition-api-con-parametros' },
-                { text: 'Composition API con parámetros', link: '/vue/composition-api-con-script' },
-                { text: 'Composition API con parámetros', link: '/vue/composition-api-con-script-setup' },
-              ],
+                { text: 'Composition API con script', link: '/vue/composition-api-con-script' },
+                { text: 'Composition API con script setup', link: '/vue/composition-api-con-script-setup' },
+                { text: 'Recepción de parámetros', link: '/vue/recepcion-parametros' },
             },
           ],
           '/vuepress/': [
@@ -134,6 +152,8 @@ export default defineUserConfig({
                 { text: 'Función definePageMeta', link: '/nuxt/definepagemeta' },
                 { text: 'Configuración del proyecto', link: '/nuxt/config' },
                 { text: 'Estructura de un proyecto', link: '/nuxt/estructura' },
+                { text: 'Personalizar el error 404', link: '/nuxt/404' },
+                { text: 'Uso de las rutas de Nuxt', link: '/nuxt/rutas' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },

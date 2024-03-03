@@ -6,13 +6,13 @@ Para centrar una imagen en línea horizontalmente, podemos usar la propiedad tex
 
 ``` html
 <div class="contenedor">
-<img src="imagen.jpg" alt="imagen centrada">
+  <img src="imagen.jpg" alt="imagen centrada">
 </div>
 ```
 
 ``` css
 .contenedor {
-text-align: center;
+  text-align: center;
 }
 ```
 
@@ -24,8 +24,8 @@ Para centrar una imagen en bloque horizontalmente, podemos usar la propiedad mar
 
 ``` css
 .imagen {
-display: block;
-margin: auto;
+  display: block;
+  margin: auto;
 }
 ```
 
@@ -39,14 +39,14 @@ Para centrar una imagen en bloque verticalmente, podemos usar la propiedad verti
 
 ``` css
 .contenedor {
-display: block;
-height: 300px;
-line-height: 300px;
+  display: block;
+  height: 300px;
+  line-height: 300px;
 }
 
 .imagen {
-display: block;
-vertical-align: middle;
+  display: block;
+  vertical-align: middle;
 }
 ```
 
@@ -55,15 +55,15 @@ Para centrar una imagen en ambos ejes, podemos usar las propiedades display: fle
 
 ``` html
 <div class="contenedor">
-<img src="imagen.jpg" alt="imagen centrada">
+  <img src="imagen.jpg" alt="imagen centrada">
 </div>
 ```
 
 ``` css
 .contenedor {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 ```
