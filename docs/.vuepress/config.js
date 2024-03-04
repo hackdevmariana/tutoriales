@@ -109,6 +109,7 @@ export default defineUserConfig({
                 { text: 'Ciclos for', link: '/python/for' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
                 { text: 'CLI con click', link: '/python/click' },
+                { text: 'Dar color a las salidas de texto con colorama', link: '/python/colorama' },
                 { text: 'Trabajar con imágenes con PILLOW', link: '/python/pillow' },
               ],
             },
