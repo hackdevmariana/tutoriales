@@ -131,6 +131,7 @@ export default defineUserConfig({
                 { text: 'Composition API con script', link: '/vue/composition-api-con-script' },
                 { text: 'Composition API con script setup', link: '/vue/composition-api-con-script-setup' },
                 { text: 'Recepción de parámetros', link: '/vue/recepcion-parametros' },
+              ],
             },
           ],
           '/vuepress/': [
@@ -154,6 +155,7 @@ export default defineUserConfig({
                 { text: 'Estructura de un proyecto', link: '/nuxt/estructura' },
                 { text: 'Personalizar el error 404', link: '/nuxt/404' },
                 { text: 'Uso de las rutas de Nuxt', link: '/nuxt/rutas' },
+                { text: 'Mostrar imagen en Nuxt', link: '/nuxt/mostrar-imagen' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
