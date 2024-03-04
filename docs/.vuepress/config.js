@@ -104,6 +104,7 @@ export default defineUserConfig({
                 { text: 'Subir proyecto a GitHub', link: '/python/github' },
                 { text: 'Subir proyecto a PyPI', link: '/python/pypi' },
                 { text: 'Documentar código', link: '/python/documentacion' },
+                { text: 'Documentar código con Sphinx', link: '/python/sphinx' },
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'Ciclos for', link: '/python/for' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
