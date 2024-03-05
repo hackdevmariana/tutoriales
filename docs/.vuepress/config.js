@@ -101,6 +101,7 @@ export default defineUserConfig({
               text: 'Bash y GNU/Linux',
               children: [
                 { text: 'Introducción', link: '/linux/' },
+                { text: 'Formatear USB', link: '/linux/formatear-usb' },
               ]
             }
           ],
