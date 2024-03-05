@@ -96,6 +96,14 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/linux/': [
+            {
+              text: 'Bash y GNU/Linux',
+              children: [
+                { text: 'Introducción', link: '/linux/' },
+              ]
+            }
+          ],
           '/python/': [
             {
               text: 'Python',
