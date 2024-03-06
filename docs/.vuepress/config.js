@@ -13,12 +13,14 @@ export default defineUserConfig({
 			{ text: 'Tecnologías',
 			  // link: '/comandos/',
 			children: [
+        { text: 'GNU/Linux', link: '/linux/' },
         { text: 'Markdown', link: '/markdown/' },
 				{ text: 'Git', link: '/git/' },
 			 ],
 			},
 			{ text: 'Lenguajes',
 			children: [
+        { text: 'HTML', link: '/html/' },
         { text: 'CSS', link: '/css/' },
         { text: 'JavaScript', link: '/javascript/' },
         { text: 'Python', link: '/python/' },
@@ -111,6 +113,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/linux/' },
                 { text: 'Formatear USB', link: '/linux/formatear-usb' },
+                { text: 'Ver los sistemas de ficheros', link: '/linux/sistemas-de-ficheros' },
               ]
             }
           ],
