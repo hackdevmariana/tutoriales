@@ -87,6 +87,15 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/html/': [
+            {
+              text: 'HTML',
+              children: [
+                { text: 'Introducción', link: '/html/' },
+                { text: 'Botones', link: '/html/button' },
+              ],
+            },
+          ],
           '/bootstrap/': [
             {
               text: 'Bootstrap',
