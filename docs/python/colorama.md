@@ -34,3 +34,16 @@ import colorama
 colorama.init()
 click.echo(colorama.Back.RED + colorama.Fore.GREEN + colorama.Style.BRIGHT + "Hola mundo")
 ```
+
+## Con f-string
+
+También podemos usar colorama con `f-strings`, quedando un código más limpio:
+
+``` py
+import click
+import colorama
+
+output_path = "my_file.txt"
+
+click.echo(f"The file { output_path } has been created{ colorama.Fore.GREEN } successfully{ colorama.Style.RESET_ALL }.")
+```
