@@ -34,8 +34,29 @@ sudo mkfs.vfat -I /dev/sdb
 
 ``` sh
 sudo mkfs.ext4 -I /dev/sdc
-``` 
+```
 
 La opción -I sirve para ignorar la advertencia de que el dispositivo es de tamaño completo.
 
 Cuando el proceso termine, tendremos el usb formateado con el sistema de ficheros elegido.
+
+
+## Formatear en ntfs3
+
+Primero, necesitamos el comando ntfs-3g:
+
+``` sh
+sudo apt install ntfs-3g
+```
+
+Desmontamos:
+
+``` sh
+sudo umount /dev/sdb
+```
+
+Y formateamos:
+
+``` sh
+sudo mkfs.ntfs /dev/sdb
+``` 
