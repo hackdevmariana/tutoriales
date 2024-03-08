@@ -129,6 +129,7 @@ export default defineUserConfig({
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'Ciclos for', link: '/python/for' },
                 { text: 'Decoradores', link: '/python/decoradores' },
+                { text: 'Double underscore', link: '/python/dunder' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
                 { text: 'Módulo pathlib', link: '/python/pathlib' },
                 { text: 'CLI con click', link: '/python/click' },
