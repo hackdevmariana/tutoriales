@@ -134,6 +134,7 @@ export default defineUserConfig({
                 { text: 'CLI con click', link: '/python/click' },
                 { text: 'Dar color a las salidas de texto con colorama', link: '/python/colorama' },
                 { text: 'Trabajar con imágenes con PILLOW', link: '/python/pillow' },
+                { text: 'Convertir a vectorial', link: '/python/convertir-a-vectorial' },
               ],
             },
           ],
