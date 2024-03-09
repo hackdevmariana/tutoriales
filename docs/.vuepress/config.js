@@ -114,6 +114,7 @@ export default defineUserConfig({
                 { text: 'Introducción', link: '/linux/' },
                 { text: 'Formatear USB', link: '/linux/formatear-usb' },
                 { text: 'Ver los sistemas de ficheros', link: '/linux/sistemas-de-ficheros' },
+                { text: 'Comprimir y descomprimir ficheros zip', link: '/linux/zip' },
               ]
             }
           ],
@@ -128,6 +129,7 @@ export default defineUserConfig({
                 { text: 'Documentar código con Sphinx', link: '/python/sphinx' },
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'Ciclos for', link: '/python/for' },
+                { text: 'Parámetros en funciones', link: '/python/parametros' },
                 { text: 'Decoradores', link: '/python/decoradores' },
                 { text: 'Double underscore', link: '/python/dunder' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
