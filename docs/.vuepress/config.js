@@ -133,12 +133,14 @@ export default defineUserConfig({
                 { text: 'Decoradores', link: '/python/decoradores' },
                 { text: 'Double underscore', link: '/python/dunder' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
+                { text: 'Extraer nombre de fichero y extensión', link: '/python/nombres-de-ficheros.md' },
                 { text: 'Módulo pathlib', link: '/python/pathlib' },
                 { text: 'CLI con click', link: '/python/click' },
                 { text: 'Dar color a las salidas de texto con colorama', link: '/python/colorama' },
                 { text: 'Trabajar con imágenes con PILLOW', link: '/python/pillow' },
                 { text: 'Convertir a vectorial', link: '/python/convertir-a-vectorial' },
               ],
+
             },
           ],
           '/php/': [
