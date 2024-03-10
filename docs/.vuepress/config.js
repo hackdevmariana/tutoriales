@@ -130,6 +130,7 @@ export default defineUserConfig({
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'Ciclos for', link: '/python/for' },
                 { text: 'Parámetros en funciones', link: '/python/parametros' },
+                { text: 'Generadores', link: '/python/yield' },
                 { text: 'Decoradores', link: '/python/decoradores' },
                 { text: 'Double underscore', link: '/python/dunder' },
                 { text: 'Cómo saber en Python si un fichero o un directorio existe', link: '/python/existe-fichero.md' },
