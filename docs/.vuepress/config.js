@@ -16,7 +16,8 @@ export default defineUserConfig({
         { text: 'GNU/Linux', link: '/linux/' },
         { text: 'Markdown', link: '/markdown/' },
         { text: 'Git', link: '/git/' },
-				{ text: 'YAML', link: '/yaml/' },
+        { text: 'YAML', link: '/yaml/' },
+				{ text: 'Vi', link: '/vi/' },
 			 ],
 			},
 			{ text: 'Lenguajes',
@@ -43,6 +44,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/tecnologias/' },
                 { text: 'Markdown', link: '/tecnologias/markdown' },
+                { text: 'Vi', link: '/tecnologias/vi' },
               ],
             },
           ],
@@ -75,6 +77,15 @@ export default defineUserConfig({
                 { text: 'Crear access tokens', link: '/git/access-token' },
                 { text: 'Crear páginas en GitHub Pages', link: '/git/github-pages' },
                 { text: 'Crear repositorio en GitHub', link: '/git/repositorio' },
+              ],
+            },
+          ],
+          '/vi/': [
+            {
+              text: 'Vi',
+              children: [
+                { text: 'Introducción', link: '/vi/' },
+                { text: 'Autocompletado', link: '/vi/autocompletado' },
               ],
             },
           ],
