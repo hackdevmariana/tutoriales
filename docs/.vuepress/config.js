@@ -15,7 +15,8 @@ export default defineUserConfig({
 			children: [
         { text: 'GNU/Linux', link: '/linux/' },
         { text: 'Markdown', link: '/markdown/' },
-				{ text: 'Git', link: '/git/' },
+        { text: 'Git', link: '/git/' },
+				{ text: 'YAML', link: '/yaml/' },
 			 ],
 			},
 			{ text: 'Lenguajes',
