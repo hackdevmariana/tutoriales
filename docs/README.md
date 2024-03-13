@@ -20,6 +20,7 @@
 ### R-Markdown
 
 ## Otras tecnologías
+### [Vi](./vi/)
 ### [Git](./git/)
 ### [Markdown](./markdown/)
 

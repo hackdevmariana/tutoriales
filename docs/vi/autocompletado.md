@@ -110,7 +110,7 @@ endsnippet
 
 ## snippets avanzados
 
-Si quieres escribir el nombre de la variable una sola vez, puedes usar una expresión de Python entre \` para asignar el valor del primer campo a una variable y luego usarla en el resto del snippet. Por ejemplo, podrías hacer algo así:
+Si queremos escribir el nombre de la variable una sola vez, podemos usar una expresión de Python entre \` para asignar el valor del primer campo a una variable y luego usarla en el resto del snippet:
 
 ``` snippets
 snippet vue "Vue component" b
@@ -138,11 +138,11 @@ ${0:/* other options */}
 endsnippet
 ```
 
-De esta forma, cuando escribas el nombre del componente en el primer campo, se guardará en la variable snip.rv y se usará en el bloque `<script>`.
+De esta forma, cuando escribamos el nombre del componente en el primer campo, se guardará en la variable snip.rv y se usará en el bloque `<script>`.
 
+Si queremos usar un número indeterminado de variables, podemos usar la opción r en el snippet para indicar que el contenido se evalúa como una expresión regular. De esta forma, podemos usar grupos de captura para repetir el mismo patrón varias veces.
 
-
-Si quieres usar un número indeterminado de variables, puedes usar la opción r en el snippet para indicar que el contenido se evalúa como una expresión regular. De esta forma, puedes usar grupos de captura para repetir el mismo patrón varias veces. Por ejemplo, podrías hacer algo así:
+Por ejemplo:
 
 ``` snippets
 snippet props "Vue props" r
@@ -160,7 +160,7 @@ m = re.search(r'(\w+): (\w+)(, )?', t[1], m.end())
 endsnippet
 ```
 
-De esta forma, cuando escribas una lista de propiedades separadas por comas en el primer campo, se generarán los objetos correspondientes con el tipo y las opciones que quieras. Por ejemplo, si escribes name: String, age: Number, se generará lo siguiente:
+De esta forma, cuando escribamos una lista de propiedades separadas por comas en el primer campo, se generarán los objetos correspondientes con el tipo y las opciones que queramos. Por ejemplo, si escribimos name: String, age: Number, se generará lo siguiente:
 
 ```
 props: {
