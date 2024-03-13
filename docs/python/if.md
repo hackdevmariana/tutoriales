@@ -1,5 +1,4 @@
-# Condicional if 
-
+# Condicional if
 
 ## Compactar varias comprobaciones negativas.
 
@@ -15,4 +14,4 @@ Podemos compactarlas de esta manera:
 if not (width or height or size):
 ```
 
-Esta expresión verificará si width, height y size son todos falsos (es decir, si ninguno de ellos tiene un valor verdadero). Si todos son falsos, la expresión devolverá True, lo que es equivalente a la condición original, pero más legible y elegante.
+Esta expresión verificará si `width`, `height` y `size` son todos falsos (es decir, si ninguno de ellos tiene un valor verdadero). Si todos son falsos, la expresión devolverá True, lo que es equivalente a la condición original, pero más legible y elegante.
