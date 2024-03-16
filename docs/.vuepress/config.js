@@ -141,6 +141,7 @@ export default defineUserConfig({
                 { text: 'Documentar código con Sphinx', link: '/python/sphinx' },
                 { text: 'Cadenas', link: '/python/cadenas' },
                 { text: 'Ciclos for', link: '/python/for' },
+                { text: 'Ciclos con enumerate', link: '/python/enumerate' },
                 { text: 'Parámetros en funciones', link: '/python/parametros' },
                 { text: 'Generadores', link: '/python/yield' },
                 { text: 'Decoradores', link: '/python/decoradores' },
