@@ -74,6 +74,7 @@ export default defineUserConfig({
               text: 'Git',
               children: [
                 { text: 'Introducción', link: '/git/' },
+                { text: 'Deshacer y rehacer commits', link: '/git/deshacer-y-rehacer-cambios' },
                 { text: 'Crear access tokens', link: '/git/access-token' },
                 { text: 'Crear páginas en GitHub Pages', link: '/git/github-pages' },
                 { text: 'Crear repositorio en GitHub', link: '/git/repositorio' },
