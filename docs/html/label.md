@@ -26,4 +26,4 @@ También se puede utilizar la etiqueta `<label>` de la siguiente manera, donde e
 </label>
 ```
 
-En este caso, el campo de entrada de texto está anidado dentro de la etiqueta <label>, por lo que no es necesario usar el atributo for. Esto también tiene el mismo efecto de asociar el texto "Nombre de usuario:" con el campo de entrada de texto.
+En este caso, el campo de entrada de texto está anidado dentro de la etiqueta `<label>`, por lo que no es necesario usar el atributo for. Esto también tiene el mismo efecto de asociar el texto "Nombre de usuario:" con el campo de entrada de texto.

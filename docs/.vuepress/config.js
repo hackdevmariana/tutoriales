@@ -107,6 +107,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/html/' },
                 { text: 'Botones', link: '/html/button' },
+                { text: 'Label', link: '/html/label' },
               ],
             },
           ],
