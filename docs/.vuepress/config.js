@@ -208,6 +208,7 @@ export default defineUserConfig({
                 { text: 'Mostrar imagen en Nuxt', link: '/nuxt/mostrar-imagen' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
+                { text: 'Uso de Nuxt Content', link: '/nuxt/content' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
                 { text: 'Uso de git con Nuxt', link: '/nuxt/git' },
 
