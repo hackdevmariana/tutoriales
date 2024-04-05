@@ -210,6 +210,8 @@ export default defineUserConfig({
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
                 { text: 'Uso de Nuxt Content', link: '/nuxt/content' },
                 { text: 'Uso de Nuxt Content y, si no existiese un fichero, acceso a una API', link: '/nuxt/content-o-api' },
+                { text: 'Uso de Nuxt UI', link: '/nuxt/nuxt-ui' },
+                { text: 'Modo noche en Nuxt', link: '/nuxt/modo-noche' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
                 { text: 'Uso de git con Nuxt', link: '/nuxt/git' },
 
