@@ -214,6 +214,7 @@ export default defineUserConfig({
                 { text: 'Modo noche en Nuxt', link: '/nuxt/modo-noche' },
                 { text: 'Subir proyecto a GitHub Pages', link: '/nuxt/github-pages' },
                 { text: 'Uso de git con Nuxt', link: '/nuxt/git' },
+                { text: 'Leer y escribir YAML en Nuxt', link: '/nuxt/yaml' },
 
               ],
             },
