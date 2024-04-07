@@ -208,6 +208,7 @@ export default defineUserConfig({
                 { text: 'Uso de las rutas de Nuxt', link: '/nuxt/rutas' },
                 { text: 'Uso de NuxtLink', link: '/nuxt/nuxtlink' },
                 { text: 'Mostrar imagen en Nuxt', link: '/nuxt/mostrar-imagen' },
+                { text: 'Layout', link: '/nuxt/layout' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
                 { text: 'Uso de Nuxt Content', link: '/nuxt/content' },
