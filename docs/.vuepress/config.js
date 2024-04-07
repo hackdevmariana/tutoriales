@@ -200,11 +200,13 @@ export default defineUserConfig({
               text: 'Nuxt',
               children: [
                 { text: 'El primer hola mundo', link: '/nuxt/' },
+                { text: 'Cambiar el puerto del servidor', link: '/nuxt/puerto-servidor' },
                 { text: 'Función definePageMeta', link: '/nuxt/definepagemeta' },
                 { text: 'Configuración del proyecto', link: '/nuxt/config' },
                 { text: 'Estructura de un proyecto', link: '/nuxt/estructura' },
                 { text: 'Personalizar el error 404', link: '/nuxt/404' },
                 { text: 'Uso de las rutas de Nuxt', link: '/nuxt/rutas' },
+                { text: 'Uso de NuxtLink', link: '/nuxt/nuxtlink' },
                 { text: 'Mostrar imagen en Nuxt', link: '/nuxt/mostrar-imagen' },
                 { text: 'Uso de Bootstrap en Nuxt', link: '/nuxt/bootstrap' },
                 { text: 'CSS personalizados en Nuxt', link: '/nuxt/css' },
