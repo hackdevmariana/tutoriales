@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as n}from"./app-BLM9-DuJ.js";const a={};function l(r,c){return e(),n("div")}const i=t(a,[["render",l],["__file","nuxtlink.html.vue"]]),s=JSON.parse('{"path":"/nuxt/nuxtlink.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"nuxt/nuxtlink.md"}');export{i as comp,s as data};
