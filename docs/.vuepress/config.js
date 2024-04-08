@@ -70,6 +70,7 @@ export default defineUserConfig({
                 { text: 'Operar con estructuras', link: '/r/operar-de-estructuras' },
                 { text: 'Vectores', link: '/r/vectores' },
                 { text: 'Matrices', link: '/r/matrices' },
+                { text: 'Dataframes', link: '/r/dataframes' },
                 { text: 'Función seq()', link: '/r/seq' },
                 { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
