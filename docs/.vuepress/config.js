@@ -76,6 +76,7 @@ export default defineUserConfig({
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
                 { text: 'Gráficos', link: '/r/graficos' },
                 { text: 'Paquete ggplot2', link: '/r/ggplot2' },
+                { text: 'Gráficos con ggplot2', link: '/r/graficos-con-ggplot2' },
               ],
             },
           ],
