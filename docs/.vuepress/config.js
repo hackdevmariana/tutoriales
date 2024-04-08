@@ -65,6 +65,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Introducción', link: '/r/' },
                 { text: 'Tipos de datos', link: '/r/tipos-de-datos' },
+                { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
                 { text: 'Estructuras de datos', link: '/r/estructuras-de-datos' },
                 { text: 'Definición de estructuras de datos', link: '/r/defincion-de-estructuras' },
                 { text: 'Operar con estructuras', link: '/r/operar-de-estructuras' },
@@ -72,8 +73,8 @@ export default defineUserConfig({
                 { text: 'Matrices', link: '/r/matrices' },
                 { text: 'Dataframes', link: '/r/dataframes' },
                 { text: 'Función seq()', link: '/r/seq' },
-                { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
+                { text: 'Gráficos', link: '/r/graficos' },
               ],
             },
           ],
