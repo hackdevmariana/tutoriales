@@ -75,6 +75,7 @@ export default defineUserConfig({
                 { text: 'Función seq()', link: '/r/seq' },
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
                 { text: 'Gráficos', link: '/r/graficos' },
+                { text: 'Paquete ggplot2', link: '/r/ggplot2' },
               ],
             },
           ],
