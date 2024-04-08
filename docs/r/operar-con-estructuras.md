@@ -6,6 +6,12 @@ Veamos algunos ejemplos de cómo operar con las estructuras de datos más comune
 
 ## Vectores:
 
+Creación:
+
+``` r
+vector <- c(1.1, 10, 3.14)
+```
+
 Acceder a elementos individuales:
 
 Utilizaremos corchetes `[ ]` y el índice del elemento que deseamos acceder. Accede al tercer elemento del vector (3):
@@ -23,9 +29,35 @@ Multiplica cada elemento del vector por 2:
 
 ``` r
 vector * 2  
+v * 2 + 100
 ```
 
+Calcular la raíz cuadrada:
+
+``` r
+sqrt(v - 1)
+```
+
+
 ## Listas
+
+Creación:
+
+``` r
+l <- list(nombre="Ana", edad=25)
+```
+
+Acceso a elementos:
+
+``` r
+l$nombre
+```
+
+Modificación:
+
+``` r
+l$edad <- l$edad + 1
+```
 
 Acceder a elementos individuales:
 
@@ -50,6 +82,24 @@ lista[["d"]] <- 4
 
 ## Matrices
 
+Creación:
+
+``` r
+m <- matrix(1:9, nrow = 3)
+```
+
+Suma de matrices:
+
+``` r
+m + m
+```
+
+Producto de matrices:
+
+``` r
+m %*% m
+```
+
 Acceder a elementos individuales:
 
 Utiliza corchetes `[ , ]` y los índices de fila y columna.
@@ -72,6 +122,12 @@ t(matriz)
 ```
 
 ## Data frames
+
+Creación:
+
+``` r
+df <- data.frame(nombre=c("Ana", "Luis"), edad=c(25, 30))
+```
 
 Acceder a columnas:
 
