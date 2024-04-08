@@ -66,6 +66,7 @@ export default defineUserConfig({
                 { text: 'Introducción', link: '/r/' },
                 { text: 'Tipos de datos', link: '/r/tipos-de-datos' },
                 { text: 'Estructuras de datos', link: '/r/estructuras-de-datos' },
+                { text: 'Definición de estructuras de datos', link: '/r/defincion-de-estructuras' },
                 { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
               ],
