@@ -34,6 +34,7 @@ export default defineUserConfig({
         { text: 'Vue', link: '/vue/' },
         { text: 'Nuxt', link: '/nuxt/' },
         { text: 'VuePress', link: '/vuepress/' },
+        { text: 'Laravel', link: '/laravel/' },
        ],
       },
     ],
@@ -56,6 +57,14 @@ export default defineUserConfig({
                 { text: 'Ciclos for', link: '/javascript/for' },
                 { text: 'Ciclos while y do-while', link: '/javascript/while' },
                 { text: 'Estructuras if', link: '/javascript/if' },
+              ],
+            },
+          ],
+          '/laravel/': [
+            {
+              text: 'Laravel',
+              children: [
+                { text: 'Instalación', link: '/laravel/' },
               ],
             },
           ],
