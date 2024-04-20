@@ -66,6 +66,7 @@ export default defineUserConfig({
               children: [
                 { text: 'Instalación', link: '/laravel/' },
                 { text: 'Servidor de desarrollo', link: '/laravel/server' },
+                { text: 'Cambiar puerto del servidor de desarrollo', link: '/laravel/cambiar-puerto' },
               ],
             },
           ],
