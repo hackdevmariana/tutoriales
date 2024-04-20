@@ -65,6 +65,7 @@ export default defineUserConfig({
               text: 'Laravel',
               children: [
                 { text: 'Instalación', link: '/laravel/' },
+                { text: 'Servidor de desarrollo', link: '/laravel/server' },
               ],
             },
           ],
