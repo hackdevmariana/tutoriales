@@ -67,6 +67,8 @@ export default defineUserConfig({
                 { text: 'Instalación', link: '/laravel/' },
                 { text: 'Servidor de desarrollo', link: '/laravel/server' },
                 { text: 'Cambiar puerto del servidor de desarrollo', link: '/laravel/cambiar-puerto' },
+                { text: 'Principales ficheros y directorios de un proyecto Laravel', link: '/laravel/ficheros-y-directorios' },
+                { text: 'El fichero .env en Laravel', link: '/laravel/fichero-env' },
               ],
             },
           ],
