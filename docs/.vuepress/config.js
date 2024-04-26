@@ -17,7 +17,8 @@ export default defineUserConfig({
         { text: 'Markdown', link: '/markdown/' },
         { text: 'Git', link: '/git/' },
         { text: 'YAML', link: '/yaml/' },
-				{ text: 'Vi', link: '/vi/' },
+        { text: 'Vi', link: '/vi/' },
+				{ text: 'MySQL', link: '/mysql/' },
 			 ],
 			},
 			{ text: 'Lenguajes',
@@ -60,6 +61,16 @@ export default defineUserConfig({
               ],
             },
           ],
+          '/mysql/': [
+            {
+              text: 'MySQL',
+              children: [
+                { text: 'Introducción', link: '/mysql/' },
+                { text: 'Listar bases de datos', link: '/mysql/listar-bases-de-datos' },
+                { text: 'Listar tablas de una base de datos', link: '/mysql/listar-tablas' },
+              ],
+            },
+          ],
           '/laravel/': [
             {
               text: 'Laravel',
@@ -73,6 +84,8 @@ export default defineUserConfig({
                 { text: 'Crear una API con Laravel y panel de control con FilamentPHP', link: '/laravel/crear-api' },
                 { text: 'Personalizar el panel de control de FilamentPHP', link: '/laravel/personalizar-filament' },
                 { text: 'Añadir componente de perfil al panel de control de FilamentPHP', link: '/laravel/profile-filament' },
+                { text: 'Crear modelo en Laravel', link: '/laravel/crear-modelo' },
+                { text: 'Cambiar el nombre de una tabla en Laravel', link: '/laravel/cambiar-nombre-de-tabla' },
               ],
             },
           ],
