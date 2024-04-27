@@ -263,8 +263,15 @@ Route::put('/test-news/{id}', [TestNewsController::class, 'update']);
 Route::delete('/test-news/{id}', [TestNewsController::class, 'destroy']);
 ```
 
-Y un controlador `TestNewsController` que maneje estas rutas y realice operaciones en el modelo `TestNews` para devolver respuestas JSON:
+Y un controlador `TestNewsController` que maneje estas rutas y realice operaciones en el modelo `TestNews` para devolver respuestas JSON.
 
+Creamos el controlador con:
+
+``` sh
+php artisan make:controller TestNewsController
+```
+
+Y editamos `/Http/Controllers/TestNewsController.php`:
 
 ``` php
 namespace App\Http\Controllers;
