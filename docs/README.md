@@ -11,6 +11,7 @@
 ### [VuePress](./vuepress/)
 
 ## [PHP](./php/)
+## [Laravel](./laravel/)
 
 ## [Python](./python/)
 ### Django
