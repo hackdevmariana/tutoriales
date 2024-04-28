@@ -84,6 +84,7 @@ export default defineUserConfig({
                 { text: 'Cambiar el nombre de una tabla en Laravel', link: '/laravel/cambiar-nombre-de-tabla' },
                 { text: 'Crear modelo en Laravel', link: '/laravel/crear-modelo' },
                 { text: 'Migraciones en Laravel con datos predeterminados', link: '/laravel/migracion-con-datos' },
+                { text: 'Migraciones en Laravel con datos en varias tablas', link: '/laravel/migracion-con-datos-en-varias-tablas' },
                 { text: 'Crear una API con Laravel y panel de control con FilamentPHP', link: '/laravel/crear-api' },
                 { text: 'Personalizar el panel de control de FilamentPHP', link: '/laravel/personalizar-filament' },
                 { text: 'Añadir componente de perfil al panel de control de FilamentPHP', link: '/laravel/profile-filament' },
