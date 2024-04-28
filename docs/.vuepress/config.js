@@ -90,6 +90,7 @@ export default defineUserConfig({
                 { text: 'Añadir componente de perfil al panel de control de FilamentPHP', link: '/laravel/profile-filament' },
                 { text: 'Añadir plugin de roles y permisos al panel de control de FilamentPHP', link: '/laravel/roles-filament' },
                 { text: 'Añadir usuarios al panel de control de FilamentPHP', link: '/laravel/usuarios-filament' },
+                { text: 'Simplificar los CRUDs en Laravel con Craftable', link: '/laravel/craftable' },
               ],
             },
           ],
