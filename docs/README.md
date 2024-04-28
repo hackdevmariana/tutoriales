@@ -5,13 +5,13 @@
 ## [CSS](./css/)
 ### [Bootstrap](./bootstrap/)
 
-## JavaScript
+## [JavaScript](./javascript/)
 ### [Vue](./vue/)
 ### [Nuxt](./nuxt/)
 ### [VuePress](./vuepress/)
 
 ## [PHP](./php/)
-## [Laravel](./laravel/)
+### [Laravel](./laravel/)
 
 ## [Python](./python/)
 ### Django
@@ -21,8 +21,10 @@
 ### R-Markdown
 
 ## Otras tecnologías
+### [Linux](./linux/)
 ### [Vi](./vi/)
 ### [Git](./git/)
 ### [Markdown](./markdown/)
+### [MySQL](./mysql/)
 
 ![Hacker Tux](./assets/hackertux.png)
