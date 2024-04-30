@@ -43,11 +43,25 @@ craftable install
 
 ## Instalación manual de Craftable
 
-Si ya tenemos un proyecto Laravel funcionando y con el fichero `.env` configurado, podemos ir al directorio del proyecto Laravel e instalar manualmente Craftable con:
+Si ya tenemos un proyecto Laravel funcionando y con el fichero `.env` configurado, podemos ir al directorio del proyecto Laravel e instalar manualmente Craftable.
+
+Si estamos usando una versión posterior a Laravel 9, deberemos instalar este paquete:
 
 ``` sh
-composer require brackets/craftable
+composer require psr/simple-cache:^2.0 maatwebsite/excel
+```
+
+Una vez instalado (sólo en versiones superiores a Laravel 9), o si usamos versiones inferiores a Laravel 9, podemos proceder a instalar Craftable:
+
+``` sh
+composer global require "brackets/craftable-installer"
+```
+
+``` sh
 composer require --dev brackets/admin-generator
+```
+
+``` sh
 php artisan craftable:install
 ```
 
@@ -66,6 +80,71 @@ npm install && npm run craftable-dev
 Al instalar Craftable, nos generará una contraseña aleatoria.
 
 Para acceder al panel de control, debemos escribir el usuario por defecto: `administrator@brackets.sk` y la contraseña proporcionada en la instalación.
+
+## Instalar dependencias
+
+Puede que la instalación de Craftable nos indique que tiene alguna dependencia no resuelta.
+
+```
+composer require brackets/craftable:^8.1.0
+./composer.json has been updated
+Running composer update brackets/craftable
+Loading composer repositories with package information
+Updating dependencies
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Root composer.json requires brackets/craftable ^8.1.0 -> satisfiable by brackets/craftable[v8.1.0].
+    - brackets/craftable v8.1.0 requires spatie/laravel-permission ^3.0|^4.0|^5.0 -> found spatie/laravel-permission[3.0, ..., 3.18.0, 4.0.0, ..., 4.4.3, 5.0.0, ..., 5.11.1] but the package is fixed to 6.7.0 (lock file version) by a partial update and that version does not match. Make sure you list it as an argument for the update command.
+
+Use the option --with-all-dependencies (-W) to allow upgrades, downgrades and removals for packages currently locked to specific versions.
+
+Installation failed, reverting ./composer.json and ./composer.lock to their original content.
+```
+
+Podemos instalarlas todas a la vez con:
+
+``` sh
+composer require brackets/craftable --with-all-dependencies
+```
+
+## Fallo con el namespace
+
+Si nos indica que falla el namespace:
+
+```
+php artisan craftable:install
+
+   ERROR  There are no commands defined in the "craftable" namespace.
+```
+
+Debermos registrar el `ServiceProvider` de `Craftable` en el fichero `config/app.php` bajo el array `providers`.
+
+``` php {}
+'providers' => ServiceProvider::defaultProviders()->merge([
+        /*
+         * Package Service Providers...
+         */
+
+        /*
+         * Application Service Providers...
+         */
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\Filament\AdminPanelProvider::class,
+        App\Providers\RouteServiceProvider::class,
+        Brackets\Craftable\CraftableServiceProvider::class,
+    ])->toArray(),
+```
+
+Si Craftable está instalado pero sus archivos de configuración no se han publicado, podemos hacerlo con el siguiente comando:
+
+``` sh
+php artisan vendor:publish --provider="Brackets\Craftable\CraftableServiceProvider"
+```
+
 
 ## Crear un CRUD con Craftable
 
