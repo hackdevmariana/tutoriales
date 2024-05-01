@@ -90,6 +90,7 @@ export default defineUserConfig({
                 { text: 'Crear relaciones entre modelos en Laravel', link: '/laravel/relaciones-laravel' },
                 { text: 'Crear una API con Laravel y panel de control con FilamentPHP', link: '/laravel/crear-api' },
                 { text: 'Personalizar el panel de control de FilamentPHP', link: '/laravel/personalizar-filament' },
+                { text: 'Recursos (resources) en FilamentPHP', link: '/laravel/recursos-filament' },
                 { text: 'Añadir componente de perfil al panel de control de FilamentPHP', link: '/laravel/profile-filament' },
                 { text: 'Añadir plugin de roles y permisos al panel de control de FilamentPHP', link: '/laravel/roles-filament' },
                 { text: 'Añadir usuarios al panel de control de FilamentPHP', link: '/laravel/usuarios-filament' },
