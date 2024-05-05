@@ -28,8 +28,7 @@ Esto creará un nuevo archivo PHP en el directorio `app/Models` llamado `TestNew
 
 Por defecto, el nuevo fichero `TestNews.php` será algo así:
 
-```
-<?php
+``` php
 
 namespace App\Models;
 
@@ -44,8 +43,7 @@ class TestNews extends Model
 
 Y, la migración, algo así:
 
-```
-<?php
+``` php
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

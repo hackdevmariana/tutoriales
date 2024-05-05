@@ -12,16 +12,16 @@ Podemos crear una migración que, además de definir la estructura de la tabla, 
 
 ``` php
 Schema::create('provincias', function (Blueprint $table) {
-$table->id();
-$table->string('nombre');
-// Otros campos necesarios...
+  $table->id();
+  $table->string('nombre');
+  // Otros campos necesarios...
 });
 
 // Insertamos los datos predeterminados
 DB::table('provincias')->insert([
-['nombre' => 'A Coruña'],
-['nombre' => 'Álava'],
-// ... Resto de provincias
+  ['nombre' => 'A Coruña'],
+  ['nombre' => 'Álava'],
+  // ... Resto de provincias
 ]);
 ```
 
@@ -36,16 +36,16 @@ use Illuminate\Database\Seeder;
 
 class ProvinciasTableSeeder extends Seeder
 {
-public function run()
-{
-$provincias = [
-'A Coruña', 'Álava', // ... Resto de provincias
-];
+  public function run()
+  {
+    $provincias = [
+      'A Coruña', 'Álava', // ... Resto de provincias
+    ];
 
-foreach ($provincias as $provincia) {
-DB::table('provincias')->insert(['nombre' => $provincia]);
-}
-}
+    foreach ($provincias as $provincia) {
+      DB::table('provincias')->insert(['nombre' => $provincia]);
+    }
+  }
 }
 ```
 

@@ -56,7 +56,7 @@ Configurar el entorno de desarrollo en `.env` con las credenciales de la base de
 Para cambiar el nombre de la base de datos, iremos a la línea:
 
 ```
-DB_DATABASE=libertapi
+DB_DATABASE=my_database
 ```
 
 Y realizamos las migraciones:
