@@ -6,7 +6,7 @@ Tenemos dos opciones para subir esa información a la base de datos.
 
 Supongamos que queremos añadir datos que se mantendrán constantes en el tiempo, como las provincias de España.
 
-## 1. Migraciones con datos predeterminados
+## Migraciones con datos predeterminados
 
 Podemos crear una migración que, además de definir la estructura de la tabla, también inserte los datos predeterminados. Esto es útil para datos que no cambiarán con el tiempo o que son necesarios para el funcionamiento inicial de la aplicación.
 
@@ -25,7 +25,7 @@ DB::table('provincias')->insert([
 ]);
 ```
 
-## 2. Seeders para desarrollo y producción
+## Seeders para desarrollo y producción
 
 Aunque generalmente se recomienda no ejecutar `seeders` en un entorno de producción, hay casos en los que puede ser apropiado, especialmente si se trata de datos que no cambian y son esenciales para la aplicación. Si decidimos usar `seeders`, nos aseguraremos de que su ejecución no afecte los datos existentes y que solo se ejecuten una vez.
 
@@ -55,7 +55,7 @@ Para ejecutar este `seeder`, podemos usar el comando `php artisan db:seed` con u
 php artisan db:seed --class=ProvinciasTableSeeder --force
 ```
 
-## 3. Inserción masiva y evolutiva
+## Inserción masiva y evolutiva
 
 Supongamos que estamos haciendo una inserción evolutiva, como frases del Quijote. En una fase, seleccionamos una serie de frases, luego, otras frases y así, a medida que vamos leyendo el libro, vamos seleccionando las frases y añadiéndolas en migraciones.
 

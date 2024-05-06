@@ -2,7 +2,9 @@
 
 En un proyecto Laravel, hay varios directorios y archivos importantes que forman parte de la estructura estándar del framework.
 
-Aquí hay una descripción de los principales directorios y archivos en un proyecto Laravel:
+## Directorios
+
+Aquí hay una descripción de los principales directorios en un proyecto Laravel:
 
 **app**: Este directorio contiene la lógica de la aplicación. Aquí es donde se encuentran los modelos, controladores, clases de servicio y otros archivos relacionados con la lógica de negocio de la aplicación.
 
@@ -14,7 +16,7 @@ Aquí hay una descripción de los principales directorios y archivos en un proye
 
 **public**: Este es el directorio raíz de la aplicación web y contiene los archivos públicos accesibles desde el navegador, como los archivos CSS, JavaScript y los activos compilados.
 
-**resources**: Aquí se almacenan los recursos que serán compilados, como las vistas de Blade (archivos .blade.php), los archivos de traducción, los archivos de estilos (CSS) y los archivos de scripts (JavaScript).
+**resources**: Aquí se almacenan los recursos que serán compilados, como las vistas de Blade (archivos `.blade.php`), los archivos de traducción, los archivos de estilos (CSS) y los archivos de scripts (JavaScript).
 
 **routes**: Contiene los archivos de definición de rutas de la aplicación. Las rutas definen cómo se responde a las solicitudes HTTP y se relacionan con los controladores correspondientes.
 
@@ -23,6 +25,8 @@ Aquí hay una descripción de los principales directorios y archivos en un proye
 **tests**: Aquí se encuentran los archivos de pruebas de la aplicación, incluidas las pruebas unitarias y las pruebas de características (también conocidas como pruebas de integración).
 
 **vendor**: Este es el directorio donde Composer instala las dependencias de la aplicación, incluido el propio Laravel y cualquier otra biblioteca de terceros utilizada en el proyecto.
+
+## Ficheros
 
 Además de estos directorios, hay algunos archivos principales en un proyecto Laravel:
 
