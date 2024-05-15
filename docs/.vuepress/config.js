@@ -90,6 +90,7 @@ export default defineUserConfig({
                 { text: 'Crear modelo en Laravel', link: '/laravel/crear-modelo' },
                 { text: 'Programar modelo en Laravel', link: '/laravel/programar-modelo' },
                 { text: 'Migraciones en Laravel', link: '/laravel/migraciones' },
+                { text: 'Tablas pivot en Laravel', link: '/laravel/tabla-pivot' },
                 { text: 'Valores obligatorios o no en las migraciones en Laravel', link: '/laravel/required-nullable' },
                 { text: 'Campos de texto en las migraciones en Laravel', link: '/laravel/campos-texto' },
                 { text: 'Migraciones en Laravel con datos predeterminados', link: '/laravel/migracion-con-datos' },
@@ -132,6 +133,8 @@ export default defineUserConfig({
               text: 'R',
               children: [
                 { text: 'Introducción', link: '/r/' },
+                { text: 'Programar scripts', link: '/r/programar-scripts' },
+                { text: 'Ejecutar scripts desde la shell', link: '/r/ejecutar-scripts' },
                 { text: 'Tipos de datos', link: '/r/tipos-de-datos' },
                 { text: 'Operaciones matemáticas', link: '/r/operaciones-matematicas' },
                 { text: 'Estructuras de datos', link: '/r/estructuras-de-datos' },
@@ -141,6 +144,13 @@ export default defineUserConfig({
                 { text: 'Matrices', link: '/r/matrices' },
                 { text: 'Dataframes', link: '/r/dataframes' },
                 { text: 'Función seq()', link: '/r/seq' },
+                { text: 'Bucles for', link: '/r/for' },
+                { text: 'Crear funciones', link: '/r/crear-funciones' },
+                { text: 'Crear paquetes', link: '/r/crear-paquetes' },
+                { text: 'Aplicar funciones en vectores', link: '/r/aplicar-funciones' },
+                { text: 'Aplicar funciones en dataframes', link: '/r/aplicar-funciones-dataframes' },
+                { text: 'Leer de una API', link: '/r/leer-api' },
+                { text: 'Interacciones con una API', link: '/r/interacciones-api' },
                 { text: 'Partes del discurso (PLN)', link: '/r/pos' },
                 { text: 'Gráficos', link: '/r/graficos' },
                 { text: 'Paquete ggplot2', link: '/r/ggplot2' },
@@ -208,6 +218,7 @@ export default defineUserConfig({
                 { text: 'Formatear USB', link: '/linux/formatear-usb' },
                 { text: 'Ver los sistemas de ficheros', link: '/linux/sistemas-de-ficheros' },
                 { text: 'Comprimir y descomprimir ficheros zip', link: '/linux/zip' },
+                { text: 'Extraer cadenas de textos', link: '/linux/extraer-cadenas' },
               ]
             }
           ],
