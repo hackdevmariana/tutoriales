@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./app-CmTkoVtm.js";const a={};function c(n,s){return t(),r("div")}const i=e(a,[["render",c],["__file","webscraping.html.vue"]]),l=JSON.parse('{"path":"/r/webscraping.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"r/webscraping.md"}');export{i as comp,l as data};
