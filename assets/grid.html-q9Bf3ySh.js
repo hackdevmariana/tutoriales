@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r}from"./app-D-3hCJfR.js";const c={};function a(s,n){return e(),r("div")}const i=t(c,[["render",a],["__file","grid.html.vue"]]),l=JSON.parse('{"path":"/css/grid.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/grid.md"}');export{i as comp,l as data};
