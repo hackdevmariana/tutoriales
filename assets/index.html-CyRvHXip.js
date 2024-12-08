@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as n}from"./app-lpbcy3xQ.js";const a={};function c(o,i){return t(),n("div")}const s=e(a,[["render",c],["__file","index.html.vue"]]),l=JSON.parse('{"path":"/css/animacion/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/animacion/README.md"}');export{s as comp,l as data};
