@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./app-CIUWFxoc.js";const o={};function c(a,s){return t(),r("div")}const l=e(o,[["render",c],["__file","before.html.vue"]]),f=JSON.parse('{"path":"/css/before.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/before.md"}');export{l as comp,f as data};
