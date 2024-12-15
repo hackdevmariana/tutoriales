@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app-D6xxHRmk.js";const r={};function c(s,n){return e(),a("div")}const l=t(r,[["render",c],["__file","after.html.vue"]]),f=JSON.parse('{"path":"/css/after.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/after.md"}');export{l as comp,f as data};
