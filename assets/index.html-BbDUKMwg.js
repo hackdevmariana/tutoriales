@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./app-Dd-GsyFo.js";const c={};function r(n,o){return t(),s("div")}const l=e(c,[["render",r],["__file","index.html.vue"]]),i=JSON.parse('{"path":"/css/selectores/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/selectores/README.md"}');export{l as comp,i as data};
