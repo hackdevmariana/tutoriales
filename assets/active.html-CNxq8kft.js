@@ -1,1 +1,0 @@
-import{_ as e,o as t,c}from"./app-DNBk7xW8.js";const a={};function s(r,o){return t(),c("div")}const i=e(a,[["render",s],["__file","active.html.vue"]]),l=JSON.parse('{"path":"/css/selectores/active.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/selectores/active.md"}');export{i as comp,l as data};
