@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as o}from"./app-M52qS8pB.js";const s={};function c(n,r){return e(),o("div")}const l=t(s,[["render",c],["__file","not.html.vue"]]),_=JSON.parse('{"path":"/css/selectores/not.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/selectores/not.md"}');export{l as comp,_ as data};
