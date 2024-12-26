@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app-C8tuoC5D.js";const r={};function c(s,n){return e(),a("div")}const i=t(r,[["render",c],["__file","buscar.html.vue"]]),l=JSON.parse('{"path":"/vi/buscar.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"vi/buscar.md"}');export{i as comp,l as data};
