@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as n}from"./app-Dc1f_d1W.js";const o={};function c(a,r){return e(),n("div")}const i=t(o,[["render",c],["__file","input-button.html.vue"]]),u=JSON.parse('{"path":"/css/input-button.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/input-button.md"}');export{i as comp,u as data};
