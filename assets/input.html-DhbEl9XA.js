@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as n}from"./app-UguhL-Vb.js";const c={};function a(r,s){return e(),n("div")}const i=t(c,[["render",a],["__file","input.html.vue"]]),l=JSON.parse('{"path":"/css/input.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/input.md"}');export{i as comp,l as data};
