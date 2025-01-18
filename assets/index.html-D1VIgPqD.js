@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as o}from"./app-DF8bNnct.js";const a={};function r(n,c){return e(),o("div")}const i=t(a,[["render",r],["__file","index.html.vue"]]),l=JSON.parse('{"path":"/bootstrap/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"bootstrap/README.md"}');export{i as comp,l as data};
