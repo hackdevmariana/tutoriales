@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./app-C_ovlyDA.js";const a={};function c(n,r){return t(),s("div")}const i=e(a,[["render",c],["__file","index.html.vue"]]),l=JSON.parse('{"path":"/css/listas/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"css/listas/README.md"}');export{i as comp,l as data};
